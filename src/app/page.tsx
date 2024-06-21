@@ -18,7 +18,6 @@ export default function Home() {
       const characters = await harryCharacters();
       setCharacterData(characters);
       setFilteredCharacters(characters);
-      console.log(characters);
     };
     getData();
   }, []);
